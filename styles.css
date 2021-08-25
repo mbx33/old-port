@@ -15,11 +15,12 @@ html {
 
 .navContainer {
   display: flex;
-  margin-left: 1%;
-  margin-top: 2%;
+  margin-left: 8%;
+  margin-top: 3%;
   justify-content: space-around;
   align-items: flex-start;
-  width: 30%;
+  /* width: 30%; */
+  max-width: 30%;
 }
 
 #mainNav {
@@ -96,11 +97,11 @@ a:hover {
 
 .skillsContainer {
   background-color: hsla(278, 14%, 58%, 0.702);
-  margin-top: 8em;
+  margin-top: 21em;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 25px;
   /* box-shadow: 2px 2px 2px black; */
   width: 20vw;
@@ -138,23 +139,55 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
   border-top: 2px solid black;
   border-radius: 25px;
   box-shadow: 2px 2px 2px black;
-  width: 40vw;
+  width: 60%;
   height: 20vh;
-  align-items: center;
-  justify-content: space-evenly;
+  /* align-items: center; */
+  /* justify-content:; */
 }
 
 .iconsContainer {
+  margin-top: 1%;
   display: flex;
-  /* justify-content: ; */
+  max-width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid black; */
 }
 
-.iconattributes {
-  font-size: 15px;
+.iconsContainer img {
+  height: 10vh;
+  padding: 0;
+  margin: 0;
+}
+
+.iconWords {
+  margin-top: 1%;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 25px;
+  background-color: hsla(278, 14%, 58%, 0.702);
+  width: 15%;
+  height: 10%;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .middleContainer {
@@ -162,7 +195,7 @@ a:hover {
   justify-content: space-between;
   border-top: 3px solid black;
   margin-bottom: 10%;
-  margin-top: 5em;
+  margin-top: 1em;
   margin-bottom: 8em;
   margin-right: 10%;
   margin-left: 10%;
@@ -179,25 +212,30 @@ a:hover {
   font-size: large;
 }
 
+.secondContainer h2 {
+  display: flex;
+  justify-content: center;
+}
+
 #desertSouth {
   opacity: 0.8;
 }
 
 #gitHubLogo {
-  height: 4em;
-  width: 4em;
-}
-
-#linkedInLogo {
   height: 3em;
   width: 3em;
 }
 
+#linkedInLogo {
+  height: 60px;
+  width: 60px;
+}
+
 #footer {
-  /* position: fixed; */
+  position: fixed;
   display: flex;
   justify-content: center;
-  bottom: 1%;
+  bottom: 0;
   width: 100%;
   height: 60px; /* Height of the footer */
   background: rgba(187, 214, 228, 0.6);
