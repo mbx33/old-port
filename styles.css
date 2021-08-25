@@ -50,6 +50,7 @@ a:hover {
   /* border: 2px solid black; */
 }
 
+
 .wordContainer {
   display: flex;
   flex-direction: column;
@@ -63,7 +64,7 @@ a:hover {
 .subPara {
   font-size: 21px;
   color: black;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 90%;
   margin-left: 3rem;
   margin-top: 2em;
@@ -72,7 +73,7 @@ a:hover {
 
 #profilePic {
   margin-top: 3em;
-  /* margin-left: 15em; */
+  margin-left: 5em;
   /*margin-right: 0%;
   padding-right: 0; */
   border: lightgray;
@@ -98,9 +99,11 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  border: dotted black;
+  border: 1px solid black;
+  border-radius: 25px;
+  /* box-shadow: 2px 2px 2px black; */
   width: 20vw;
-  height: 10vh;
+  height: 7vh;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -128,12 +131,38 @@ a:hover {
   /* height: 10%; */
 }
 
+.skillIconsContainer {
+  background-color: hsla(278, 14%, 58%, 0.702);
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border: 1px solid black;
+  border-top: 2px solid black;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+  width: 40vw;
+  height: 20vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.iconsContainer {
+  display: flex;
+  /* justify-content: ; */
+}
+
+.iconattributes {
+  font-size: 15px;
+}
+
 .middleContainer {
   display: flex;
   justify-content: space-between;
   border-top: 3px solid black;
   margin-bottom: 10%;
-  margin-top: 20em;
+  margin-top: 5em;
+  margin-bottom: 15em;
   margin-right: 10%;
   margin-left: 10%;
   width: 80%;
