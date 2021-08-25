@@ -196,7 +196,7 @@ a:hover {
   border-top: 3px solid black;
   margin-bottom: 10%;
   margin-top: 1em;
-  margin-bottom: 8em;
+  margin-bottom: 15em;
   margin-right: 10%;
   margin-left: 10%;
   width: 80%;
@@ -231,12 +231,18 @@ a:hover {
   width: 60px;
 }
 
+.spaceContainer {
+  height: 20%;
+  margin-bottom: 18em;
+  margin-top: 18em;
+}
+
 #footer {
   position: fixed;
   display: flex;
   justify-content: center;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   height: 60px; /* Height of the footer */
   background: rgba(187, 214, 228, 0.6);
   border-top: 1px solid black;
