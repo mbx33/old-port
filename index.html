@@ -12,6 +12,16 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="/index.js" defer></script>
     <title>My Portfolio</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="./src/App.js"></script>
   </head>
 
   <body id="bgi">
@@ -19,10 +29,18 @@
       <ul id="mainNav" class="navContainer">
         <!-- <li><a href="#" class="item_menu">Home</a></li> -->
         <li><a href="#" class="item_menu">Projects</a></li>
-        <li><a href="#" class="item_menu">About</a></li>
+        <li>
+          <a
+            href="https://docs.google.com/document/d/1jiN_KumI2lSd0s7Rx8nVJL4dDhzHjd6Clf0IsEC00io/edit?usp=sharing"
+            class="item_menu"
+            target="_blank"
+            >Resume</a
+          >
+        </li>
         <li><a href="#" class="item_menu">Contact</a></li>
       </ul>
     </div>
+    <div id="root"></div>
 
     <section>
       <div class="topContainer">
@@ -133,5 +151,12 @@
         delay: 250,
       });
     </script>
+
+    <script type="text/babel">
+      const App = () => {};
+
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+    <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
   </body>
 </html>
