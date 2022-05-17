@@ -1,162 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="/index.js" defer></script>
-    <title>My Portfolio</title>
-    <script
-      crossorigin
-      src="https://unpkg.com/react@17/umd/react.production.min.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
-    ></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="./src/App.js"></script>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<script src="/index.js" defer></script>
+		<title>My Portfolio</title>
+		<script
+			crossorigin
+			src="https://unpkg.com/react@17/umd/react.production.min.js"
+		></script>
+		<script
+			crossorigin
+			src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+		></script>
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+		<script src="./src/App.js"></script>
+	</head>
 
-  <body id="bgi">
-    <div>
-      <ul id="mainNav" class="navContainer">
-        <!-- <li><a href="#" class="item_menu">Home</a></li> -->
-        <li><a href="#" class="item_menu">Projects</a></li>
-        <li>
-          <a
-            href="https://docs.google.com/document/d/1jiN_KumI2lSd0s7Rx8nVJL4dDhzHjd6Clf0IsEC00io/edit?usp=sharing"
-            class="item_menu"
-            target="_blank"
-            >Resume</a
-          >
-        </li>
-        <li><a href="#" class="item_menu">Contact</a></li>
-      </ul>
-    </div>
-    <div id="root"></div>
+	<body id="bgi">
+		<div>
+			<ul id="mainNav" class="navContainer">
+				<!-- <li><a href="#" class="item_menu">Home</a></li> -->
+				<li><a href="#" class="item_menu">Projects</a></li>
+				<li>
+					<a
+						href="https://docs.google.com/document/d/1jiN_KumI2lSd0s7Rx8nVJL4dDhzHjd6Clf0IsEC00io/edit?usp=sharing"
+						class="item_menu"
+						target="_blank"
+						>Resume</a
+					>
+				</li>
+				<li><a href="#" class="item_menu">Contact</a></li>
+			</ul>
+		</div>
+		<div id="root"></div>
 
-    <section>
-      <div class="topContainer">
-        <div class="wordContainer">
-          <div><h1 id="myName">Matthew Baxter</h1></div>
-          <div>
-            <h2 class="subtitle" data-aos="flip-left">
-              Freelance Webdeveloper | Utah
-            </h2>
-          </div>
-          <div>
-            <p class="subPara">
-              My name is Matt. I've been designing different websites for over 5
-              years now. I've just started to develop the skills necassary to
-              code and create better designs. I have a desire to build and
-              design user friendly websites.
-            </p>
-            <p class="subPara">
-              I have lived in Russia, and love travelling to other countries.
-              Living in other countries has helped me and my passion for
-              bringing the world together through technology.
-            </p>
-          </div>
-        </div>
-        <div>
-          <img
-            src="/assets/Profile adjusted.jpg"
-            alt="profile"
-            id="profilePic"
-          />
-        </div>
-      </div>
-    </section>
+		<section>
+			<div class="topContainer">
+				<div class="wordContainer">
+					<div><h1 id="myName">Matthew Baxter</h1></div>
+					<div>
+						<h2 class="subtitle" data-aos="flip-left">Freelance Webdeveloper | Utah</h2>
+					</div>
+					<div>
+						<p class="subPara">
+							My name is Matt. I've been designing different websites for over 5 years
+							now. I've just started to develop the skills necassary to code and create
+							better designs. I have a desire to build and design user friendly websites.
+						</p>
+						<p class="subPara">
+							I have lived in Russia, and love travelling to other countries. Living in
+							other countries has helped me and my passion for bringing the world together
+							through technology.
+						</p>
+					</div>
+				</div>
+				<div>
+					<img src="/assets/Profile adjusted.jpg" alt="profile" id="profilePic" />
+				</div>
+			</div>
+		</section>
 
-    <section class="skillsContainer">
-      <div>
-        <h3 class="skills" style="color: black"><strong>Skills</strong></h3>
-      </div>
-    </section>
-    <div class="skillIconsContainer" data-aos="zoom-in">
-      <div class="iconsContainer iconattributes">
-        <div><img src="/assets/html.jpeg" alt="html" /></div>
-        <div><img src="/assets/css.jpeg" alt="css logo" /></div>
-        <div><img src="/assets/javascript.jpeg" alt="javascript logo" /></div>
-        <div><img src="/assets/git.jpeg" alt="github logo" /></div>
-      </div>
-      <div class="iconWords">
-        <div>HTML</div>
-        <div>CSS</div>
-        <div>Javascript</div>
-        <div>Git</div>
-      </div>
-    </div>
+		<section class="skillsContainer">
+			<div>
+				<h3 class="skills" style="color: black"><strong>Skills</strong></h3>
+			</div>
+		</section>
+		<div class="skillIconsContainer" data-aos="zoom-in">
+			<div class="iconsContainer iconattributes">
+				<div><img src="/assets/html.jpeg" alt="html" /></div>
+				<div><img src="/assets/css.jpeg" alt="css logo" /></div>
+				<div><img src="/assets/javascript.jpeg" alt="javascript logo" /></div>
+				<div><img src="/assets/git.jpeg" alt="github logo" /></div>
+			</div>
+			<div class="iconWords">
+				<div>HTML</div>
+				<div>CSS</div>
+				<div>Javascript</div>
+				<div>Git</div>
+				<div>Changing some things</div>
+			</div>
+		</div>
 
-    <!-- work on this section next -->
-    <div class="projectsContainer">
-      <div><h2>Projects</h2></div>
-    </div>
+		<!-- work on this section next -->
+		<div class="projectsContainer">
+			<div><h2>Projects</h2></div>
+		</div>
 
-    <div class="middleContainer" data-aos="fade-up" data-aos-offset="100">
-      <div class="secondContainer">
-        <img src="./assets/Bryce.jpg" alt="Bryce Canyon" />
-      </div>
-      <div class="secondContainer">
-        <h2 style="color: black">Website Demo</h2>
-        <iframe
-          width="320"
-          height="200"
-          src="https://youtube.com/embed/1yeCO9h_Z7A"
-        ></iframe>
-      </div>
-      <div class="secondContainer">
-        <img src="./assets/bryce-trail.jpg" alt="Bryce Trail" />
-      </div>
-    </div>
+		<div class="middleContainer" data-aos="fade-up" data-aos-offset="100">
+			<div class="secondContainer">
+				<img src="./assets/Bryce.jpg" alt="Bryce Canyon" />
+			</div>
+			<div class="secondContainer">
+				<h2 style="color: black">Website Demo</h2>
+				<iframe
+					width="320"
+					height="200"
+					src="https://youtube.com/embed/1yeCO9h_Z7A"
+				></iframe>
+			</div>
+			<div class="secondContainer">
+				<img src="./assets/bryce-trail.jpg" alt="Bryce Trail" />
+			</div>
+		</div>
 
-    <!-- <div class="spaceContainer">
+		<!-- <div class="spaceContainer">
       <div></div>
     </div> -->
 
-    <div class="contactContainer">
-      <div><h2>Email: mbx33@hotmail.com</h2></div>
-    </div>
+		<div class="contactContainer">
+			<div><h2>Email: mbx33@hotmail.com</h2></div>
+		</div>
 
-    <div id="footer" data-aos="flip-up" data-aos-offset="900">
-      <div>
-        <a href="https://github.com/mbx33" target="_blank"
-          ><img
-            src="./assets/githublogo2.jpeg"
-            alt="github logo"
-            id="gitHubLogo"
-        /></a>
-      </div>
-      <div>
-        <a href="https://www.linkedin.com/in/matt-baxter33/" target="_blank"
-          ><img
-            src="./assets/linkedinlogo2.jpeg"
-            alt="linked in logo"
-            id="linkedInLogo"
-        /></a>
-      </div>
-    </div>
+		<div id="footer" data-aos="flip-up" data-aos-offset="900">
+			<div>
+				<a href="https://github.com/mbx33" target="_blank"
+					><img src="./assets/githublogo2.jpeg" alt="github logo" id="gitHubLogo"
+				/></a>
+			</div>
+			<div>
+				<a href="https://www.linkedin.com/in/matt-baxter33/" target="_blank"
+					><img src="./assets/linkedinlogo2.jpeg" alt="linked in logo" id="linkedInLogo"
+				/></a>
+			</div>
+		</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 1400,
-        delay: 250,
-      });
-    </script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				duration: 1400,
+				delay: 250,
+			});
+		</script>
 
-    <script type="text/babel">
-      const App = () => {};
+		<script type="text/babel">
+			const App = () => {};
 
-      ReactDOM.render(<App />, document.getElementById("root"));
-    </script>
-    <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
-  </body>
+			ReactDOM.render(<App />, document.getElementById('root'));
+		</script>
+		<script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
+	</body>
 </html>
